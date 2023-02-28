@@ -1,0 +1,71 @@
+body {
+  background: salmon;
+}
+
+main {
+  background: white;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.block-level {
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    position: relative;
+    float: left;
+}
+
+
+.navigation{
+    float: right;
+    height: 100%;
+
+}
+ 
+.navigation a{
+    height: 100%;
+    display: inline-block;
+    float: left;
+    background-color: #101010;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.content{
+    color: red;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+
+}
+
+.center_contacts{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+
+}
+
+.main-center {
+  margin: 0 auto;
+  width: 300px;
+  background: black;
+  padding: 20px;
+  color: white;
+}
